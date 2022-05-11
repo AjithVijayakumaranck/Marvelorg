@@ -1,0 +1,1299 @@
+    body{
+        margin: 0px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    header{
+    
+        position:absolute;
+        top:0;
+        width: 100%;
+        height:60px;
+        background-color: #202020;
+        margin-bottom:1px;
+    }
+    header img{
+        position: absolute;
+        top: 0px;
+        margin-left: 45%;
+        height: 60px;
+        width: 120px;
+    }
+    .signin{
+        margin-left: 120px;
+        border-right: .5px solid #5a5a5a;
+        border-left: .5px solid #5a5a5a;
+        background-color:transparent;
+        width:120px;
+        height: 60px;
+        
+    }
+    .signin button{
+        position: absolute;
+        left: 125px;
+        height: 60px;
+        border: 0px;
+        border-color:aliceblue;
+        background-color:transparent;
+        color: rgb(255, 255, 255);
+        font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        line-height: 16.6px;
+        letter-spacing: .5px;
+        font-weight: bold;
+    
+    }
+    .joinbutton{
+        position: absolute;
+        height: 60px;
+        border: 0px;
+        border-color:aliceblue;
+        border-left: 5px;
+        border-bottom: 1px;
+        border-right: 1px;
+        background-color:transparent;
+        color: rgb(255, 255, 255);
+        font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        line-height: 16.6px;
+        letter-spacing: .5px;
+        margin-left: 70px;
+        font-weight: bold;
+    
+    }
+    .limited{
+        position:absolute;
+        border-left: .5px solid #5a5a5a;
+        border-right: .5px solid #5a5a5a;
+        
+        height: 60px;
+        top:0px;
+        left: 1078px;
+        width:293px;    
+    }
+    .limited h3{
+        cursor: pointer;   
+        position: absolute;
+        left: 83px;
+        top: 0px;
+        width: 160px;
+        margin-top: 15px;
+        color: rgb(255, 255, 255);
+        font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        line-height: 16.6px;
+        letter-spacing: .5px;
+        
+    
+    }
+    .logoun{
+
+        border-left: .5px solid #5a5a5a;
+        position: relative;
+        left: 232px;
+        height: 60px;
+        width: 61px;
+        
+      
+       
+        
+    }
+    .unlim{
+        position: absolute;
+        top:15px;
+        right: 240px;
+        height: 30px;
+        width: 30px;
+        margin-right:0px;
+
+    }
+    .search {
+        
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        width: 30px;
+        height: 30px;
+        
+    }
+    nav{
+        
+    position: relative;
+    top: 0px;
+    left:0px;
+        border-top: .5px solid #5a5a5a;
+        
+        margin-top:60px;
+        width:100%;
+        height:30px;
+        background-color: #202020;
+    }
+    nav table{
+        position:absolute;
+        top: -13px;
+        left:454px;
+        color: white;
+        font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        line-height: 16.6px;
+        letter-spacing: .5px;
+        font-weight: normal;
+    }
+    td:hover{
+        cursor: pointer;
+        color:red;
+        transform: scale(1.1);
+    }
+    .below_nav{
+        
+        margin-top:0px;
+        width:100%;
+        height: 40px;
+        background-color: #121212;
+
+    }
+    .below_nav h3{
+        cursor: pointer;
+        position:absolute;
+        top:92px;
+        text-align: center;
+        left:612px;
+        color: rgb(255, 255, 255);
+        font-family:Segoe UI Historic;
+        font-size: 12px;
+        line-height: 16.6px;
+        letter-spacing: .5px;
+        font-weight: normal; 
+    }
+    .card{
+        width: 100%;
+        height: 450px;
+        
+        background-image: url(1024.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+    }
+    .moonlogo{
+
+            position: relative;
+            top: 14px;
+            left: 199px;
+            width: 295px;
+            height: 197px;
+        
+    }
+    .card h1{
+        position: absolute;
+        left: 208px;
+        top: 311px;
+        font-family:Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+        color:white;
+        
+    }
+    .card h4{
+        position: absolute;
+        left: 208px;
+        top: 359px;
+        font-family:gotham book;
+        font-size: 11px;;
+        font-weight:normal;
+        color:white;
+        
+    }
+    .card button{
+        position: relative;
+        top: 121px;
+        right: 92px;
+        border: 0px;
+        background-color: red;
+        color: white;
+        border-radius: 40px 0px 40px;
+        width:130px;
+        height:40px;
+        font-family:Adidas Unity;
+        font-size: 12px;
+        line-height: 16.6px;
+        letter-spacing: .5px;
+        font-weight:bold;
+    }
+    .card button:hover{
+        background-color: white;
+        color: rgb(255, 0, 0)    ;
+    }
+
+    .moreinfo{
+        position: relative;
+        top: 121px;
+        right: -50px;
+        border: 0px;
+        background-color: red;
+        color: white;
+        border-radius: 0px 40px 0px 40px;
+        width:130px;
+        height:40px;
+        font-family:Adidas Unity;
+        font-size: 12px;
+        line-height: 16.6px;
+        letter-spacing: .5px;
+        font-weight:bold;
+    }
+    .white {
+        position: relative;
+        top: -58px;
+        left: 59px;
+        background-color: rgb(255, 255, 255);
+        height: 130px;
+        width: 1396px;
+    }
+
+    .screenshot{
+        position:relative;
+    
+        top:10px;
+        margin-top: 10px;
+        margin-left: 26px;
+        width:234px;
+        height: 137px;
+        background-image: url(asset\ 78.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .screenshot2{
+    
+        position:absolute;
+        top:1px;
+        left: 296px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width:234px;
+        height: 137px;
+        background-image: url(asset\ 79.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .screenshot4{
+    
+        position:absolute;
+        top:1px;
+        left: 567px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width:234px;
+        height: 137px;
+        background-image: url(asset\ 80.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .screenshot5{
+    
+        position:absolute;
+        top:1px;
+        left: 845px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width:234px;
+        height: 137px;
+        background-image: url(asset\ 81.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .screenshot6{
+    
+        position:absolute;
+        top:1px;
+        left:1113px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width:234px;
+        height: 137px;
+        background-image: url(asset\ 82.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pannel2{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        
+        
+        margin-top: 100px;
+        width: 100%;
+        height: 450px;
+        background-image: url(1024.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin-bottom: 50px;
+        
+    }
+    .pannel2 img{
+        position:absolute;
+        left:161px;
+        top: 71px;
+    }
+    .pannel2 h1{
+        position:absolute;
+        left: 178px;
+        top:225px;
+        font-family:Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+        color:white;
+        
+    }
+    .pannel2 h4{
+        position:absolute;
+        left: 178px;
+        top: 278px;
+        font-family:gotham book;
+        font-size: 11px;;
+        font-weight:normal;
+        color:white;
+        
+    }
+    .pannel2 button{
+        position: absolute;
+        top: 340px;
+        left: 178px;
+        border: 0px;
+        background-color: #5a5a5a;
+        color: white;
+        border-radius: 40px 0px 40px;
+        width: 130px;
+        height: 40px;
+        font-family: Adidas Unity;
+        font-size: 12px;
+        line-height: 16.6px;
+        letter-spacing: .5px;
+        font-weight: bold;
+    }
+    .pannel2 button:hover{
+    transform:scale(1.1);
+    color:#5a5a5a;
+    background-color:white;
+    }
+    .white2{
+    
+        position: relative;
+        top: -91px;
+        left: 304px;
+        background-color: rgb(255, 255, 255);
+        height: 130px;
+        width: 926px;
+
+    }
+    .screenshot10{
+        position: absolute;
+        top: 15px;
+        left: 13px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 277px;
+        height: 150px;
+        background-image:url(asset\ 84.jpeg);
+        background-size: cover;
+    }
+    .screenshot11{
+        position: absolute;
+        top: 15px;
+        left: 311px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 277px;
+        height: 150px;
+        background-image:url(asset\ 87.png);
+        background-size: cover;
+    }
+    .screenshot12{
+        position: absolute;
+        top: 15px;
+        left: 610px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 277px;
+        height: 150px;
+        background-image:url(asset\ 86.png);
+        background-size: cover;
+    }
+    #first{
+        position: absolute;
+        top: 168px;
+        left: 23px;
+        color: #767676;
+        font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        font-weight: bolder;
+        letter-spacing: 1px;
+    }
+    #second{
+        position: absolute;
+        top: 168px;
+        left: 321px;
+        color: #767676;
+        font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        font-weight: bolder;
+        letter-spacing: 1px;
+    }
+    #third{
+        position: absolute;
+        top: 168px;
+        left: 622px;
+        letter-spacing: 1px;
+        color: #767676;
+        font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        font-weight: bolder;
+    }
+    #det1{
+        position: absolute;
+        top: 193px;
+        left: 23px;
+        color: #151515;
+        font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+        line-height: 16 px;
+        font-size: 15px;
+        text-align: left;
+        font-weight: bolder;
+        letter-spacing: .5px;
+
+    }
+    #det2{
+        position: absolute;
+        top: 193px;
+        left:321px;
+        color: #151515;
+        font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+        line-height: 16 px;
+        font-size: 15px;
+        text-align: left;
+        font-weight: bolder;
+        letter-spacing: .5px;
+
+    }
+    #det3{
+        position: absolute;
+        top: 193px;
+        left:622px;
+        color: #151515;
+        font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+        line-height: 16 px;
+        font-size: 15px;
+        text-align: left;
+        font-weight: bolder;
+        letter-spacing: .5px;
+
+    }
+    .comics{
+        position: relative;
+        top: 88px;
+        height:450px;
+        background-image: url(asset\ 75.jpeg);
+        background-position: top;
+        background-size: cover;
+        width: 100%;
+        
+    }
+    .white3{
+    
+
+        position: relative;
+        top: 43px;
+        left: 218px;
+        background-color: rgb(255, 255, 255);
+        height: 261px;
+        width: 1039px;
+
+    }
+    .comic1{
+
+        position: absolute;
+        top: 8px;
+        left: 29px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 160px;
+        height: 234px;
+        background-image: url(asset\ 52.jpeg);
+        background-size: cover
+
+    }
+    .comic2{
+
+        position: absolute;
+        top: 8px;
+        left: 215px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 160px;
+        height: 234px;
+        background-image: url(asset\ 48.jpeg);
+        background-size: cover
+
+    }
+    .comic3{
+
+        position: absolute;
+        top: 8px;
+        left: 398px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 160px;
+        height: 234px;
+        background-image: url(asset\ 50.jpeg);
+        background-size: cover
+
+    }
+    .comic4{
+
+        position: absolute;
+        top: 8px;
+        left: 582px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 160px;
+        height: 234px;
+        background-image: url(asset\ 47.jpeg);
+        background-size: cover
+
+    }
+    .comic5{
+
+        position: absolute;
+        top: 8px;
+        left: 761px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 160px;
+        height: 234px;
+        background-image: url(asset\ 51.jpeg);
+        background-size: cover
+    }
+
+    .comic5:hover{
+        transform: rotate(10deg);
+    }
+    .comic1:hover{
+        transform: rotate(10deg);
+    }
+    .comic2:hover{
+        transform: rotate(10deg);
+    }
+    .comic3:hover{
+        transform: rotate(10deg);
+    }
+    .comic4:hover{
+        transform: rotate(10deg);
+    }
+    #fourth{
+        position: absolute;
+        top: 244px;
+        left: 771px;
+        color: #151515;
+        font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        font-weight: bolder;
+        letter-spacing: 1px;
+    }
+    #fifth{
+        position: absolute;
+        top: 244px;
+        left: 38px;
+        color: #151515;
+        font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        font-weight: bolder;
+        letter-spacing: 1px;
+    }
+    #sixth{
+        position: absolute;
+        top: 244px;
+        left: 226px;
+        letter-spacing: 1px;
+        color: #151515;
+        font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        font-weight: bolder;
+    }
+    #seventh{
+        position: absolute;
+        top: 244px;
+        left: 409px;
+        letter-spacing: 1px;
+        color: #151515;
+        font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        font-weight: bolder;
+    }
+    #eighth{
+        position: absolute;
+        top: 244px;
+        left: 592px;
+        letter-spacing: 1px;
+        color: #151515;
+        font-family: "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        font-weight: bolder;
+    }
+    .comics h1{
+        position:absolute;
+        left: 79px;
+        top: 172px;
+        font-family:Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+        color:white;
+        font-size: 40PX;
+    }
+    .comics h3{
+        position:absolute;
+        left: 79px;
+        top: 166px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:white;
+        text-align: left;
+    }
+    .comics button{
+        position: absolute;
+        top: 264px;
+        left: 111px;
+        border: -11px;
+        border-color: white;
+        background-color:transparent;
+        color: white;
+        border-radius: 40px 0px 40px;
+        width: 300px;
+        height: 40px;
+        font-family: Adidas Unity;
+        font-size: 12px;
+        line-height: 16.6px;
+        letter-spacing: .5px;
+        font-weight: bold;
+    }
+    .comics button:hover{
+        border-color:red;
+        color:white;
+    }
+    .scroll{
+        position: relative;
+        top: 342px;
+        left: 36px;
+        width: 897px;
+        height: 1px;
+        background-color:  #5a5a5a;
+    }
+    .scrollhead{
+        position: absolute;
+        background-color: red;
+        height: 6px;
+        width: 77px;
+        left: 0px;
+        top: -2px;
+
+    }
+    .feeds{
+        position: relative;
+        top: 427px;
+        width: 1217px;
+        height: 415px;
+        background-color:transparent;
+        left: -90px;
+
+    }
+    .feeds h1{
+    color:#202020;
+    font-family:RobotoCondensed, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    }
+    .thumbnail1{
+        
+       display: flex;
+        background-color:transparent;
+        width: 762px;
+        height: 286px;
+        margin-bottom:40px;
+        border-bottom: .5px solid #5a5a5a;
+
+    }
+    .feedimage1 {
+       
+        height: 250px;
+        width: 639px;
+       background-image: url(asset\ 89.jpeg);
+       background-size: cover;
+    }
+    .feeddata {
+
+        padding-left:30px;
+       
+        height: 250px;
+        width: 372px;
+        background-color: transparent;
+        
+    }
+    .feeddata h4{
+        margin: 0px;
+        color:#767676;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        font-family:teko medium;
+    }
+    .feeddata h5{
+        margin: 0px;
+        color:#151515;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family:teko light;
+        font-size:20px;
+
+
+    }
+    #date{
+        margin: 0px;
+        color:#767676;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        font-family:teko light;
+    }
+    .thumbnail2{
+        
+        display: flex;
+         background-color:transparent;
+         width: 762px;
+         height: 286px;
+         margin-bottom:40px;
+         border-bottom: .5px solid #5a5a5a;
+ 
+     }
+     .feedimage2 {
+        
+         height: 250px;
+         width: 639px;
+        background-image: url(asset\ 90.jpeg);
+        background-size: cover;
+     }
+     .feeddata2 {
+ 
+         padding-left:30px;
+        
+         height: 250px;
+         width: 372px;
+         background-color: transparent;
+         
+     }
+     .feeddata2 h4{
+         margin: 0px;
+         color:#767676;
+         font-weight: bolder;
+         letter-spacing: 1px;
+         font-family:teko medium;
+     }
+     .feeddata2 h5{
+         margin: 0px;
+         color:#151515;
+         font-weight: bold;
+         letter-spacing: 1px;
+         font-family:teko light;
+         font-size:20px;
+ 
+ 
+     }
+     #date2{
+         margin: 0px;
+         color:#767676;
+         font-weight: bolder;
+         letter-spacing: 1px;
+         font-family:teko light;
+     }
+     .thumbnail3{
+        
+        display: flex;
+         background-color:transparent;
+         width: 762px;
+         height: 286px;
+         margin-bottom:40px;
+         border-bottom: .5px solid #5a5a5a;
+ 
+     }
+     .feedimage3 {
+        
+         height: 250px;
+         width: 639px;
+        background-image: url(asset\ 91.jpeg);
+        background-size: cover;
+     }
+     .feeddata3 {
+ 
+         padding-left:30px;
+        
+         height: 250px;
+         width: 372px;
+         background-color: transparent;
+         
+     }
+     .feeddata3 h4{
+         margin: 0px;
+         color:#767676;
+         font-weight: bolder;
+         letter-spacing: 1px;
+         font-family:teko medium;
+     }
+     .feeddata3 h5{
+         margin: 0px;
+         color:#151515;
+         font-weight: bold;
+         letter-spacing: 1px;
+         font-family:teko light;
+         font-size:20px;
+ 
+ 
+     }
+     #date3{
+         margin: 0px;
+         color:#767676;
+         font-weight: bolder;
+         letter-spacing: 1px;
+         font-family:teko light;
+     }
+     .thumbnail4{
+        
+        display: flex;
+         background-color:transparent;
+         width: 762px;
+         height: 286px;
+         margin-bottom:40px;
+         border-bottom: .5px solid #5a5a5a;
+ 
+     }
+     .feedimage4 {
+        
+         height: 250px;
+         width: 639px;
+        background-image: url(asset\ 82.jpeg);
+        background-size: cover;
+     }
+     .feeddata4 {
+ 
+         padding-left:30px;
+        
+         height: 250px;
+         width: 372px;
+         background-color: transparent;
+         
+     }
+     .feeddata4 h4{
+         margin: 0px;
+         color:#767676;
+         font-weight: bolder;
+         letter-spacing: 1px;
+         font-family:teko medium;
+     }
+     .feeddata4 h5{
+         margin: 0px;
+         color:#151515;
+         font-weight: bold;
+         letter-spacing: 1px;
+         font-family:teko light;
+         font-size:20px;
+ 
+ 
+     }
+     #date4{
+         margin: 0px;
+         color:#767676;
+         font-weight: bolder;
+         letter-spacing: 1px;
+         font-family:teko light;
+     }
+     .thumbnail5{
+        
+        display: flex;
+         background-color:transparent;
+         width: 762px;
+         height: 286px;
+         margin-bottom:40px;
+         border-bottom: .5px solid #5a5a5a;
+ 
+     }
+     .feedimage5 {
+        
+        height: 250px;
+        width: 639px;
+       background-image: url(asset\ 92.jpeg);
+       background-size: cover;
+    }
+    .feeddata5 {
+
+        padding-left:30px;
+       
+        height: 250px;
+        width: 372px;
+        background-color: transparent;
+        
+    }
+    .feeddata5 h4{
+        margin: 0px;
+        color:#767676;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        font-family:teko medium;
+    }
+    .feeddata5 h5{
+        margin: 0px;
+        color:#151515;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family:teko light;
+        font-size:20px;
+
+
+    }
+    #date5{
+        margin: 0px;
+        color:#767676;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        font-family:teko light;
+    }
+
+  
+    .hypebox {
+        position: absolute;
+        top: -42px;
+        left: 795px;
+        background-color:transparent;
+        height: 965px;
+        width: 362px;
+        text-align: center;
+        
+    }
+    #hype{
+       
+        position: absolute;
+        top: 83px;
+        left: 140px;
+        font-size: 22px;
+    }
+    #gold1{
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        height:auto;
+        width: 308px;
+    }
+    .hypebox p{
+        margin: 0px;
+        position: absolute;
+        top: 134px;
+        left: 98px;
+        font-size: 13px;
+        color:#151515;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        font-family:Myriad Pro regular;
+    }
+    .hypemaster{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 187px;
+        left: 57px;
+        background-color: transparent;
+        width: 362px;
+        height: 568px;
+    }
+    .hypefeed{
+        display: flex;
+        border-top:1px solid black;
+        margin-top:10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color:transparent;
+        height: 184px;
+    }
+    .hypethumb{
+        width:100px;
+        height:50px;
+        background-image: url(asset\ 97.jpeg);
+        background-size: cover;
+    }
+    .hypedata{
+        margin-left: 1px;
+        padding-left: 15px;
+        width: 248px;
+        height: 157px;
+        background-color: transparent;
+        text-align: left;
+    }
+    .hypemaster h5{
+        margin: 0px;
+        color: #767676;
+        font-family: teko light;
+        letter-spacing: 1px;
+    }
+    .hypemaster h6{
+        margin: 0%;
+        font-size: 15px;
+        font-family:Myriad Pro Regular;
+        line-height: 20px;
+
+    }
+    .hypethumb1{
+        width:100px;
+        height:50px;
+        background-image: url(asset\ 78.jpeg);
+        background-size: cover;
+    }
+    .hypethumb2{
+        width:100px;
+        height:50px;
+        background-image: url(asset\ 98.jpeg);
+        background-size: cover;
+    }
+    .hypethumb3{
+        width:100px;
+        height:50px;
+        background-image: url(asset\ 84.jpeg);
+        background-size: cover;
+    }
+    #gold {
+        position: absolute;
+        top: 836px;
+        left: 201px;
+        height: auto;
+        width: 308px;
+    }
+   .bottomcard{
+       position: relative;
+       top:1970px;
+       width: 100%;
+       height: 344px;
+       background-color: #000000;
+       background-size:cover;
+       background-repeat: repeat;
+   }
+   .bottomcard img{
+       position: absolute;
+       left:149px;
+    }
+    .bottomcard p{
+        position: absolute;
+        top: 86px;
+        left: 1066px;
+        color: red;
+        font-family: teko light;
+        letter-spacing: 2px;
+    }
+   .bottomcard h1{
+       position: absolute;
+       left: 948px;
+       top: 113px;
+       color:white;
+       font-size: 40px;
+       font-family:Myriad Pro Regular;
+       letter-spacing: .5px;
+   }
+   .bottomcard h6{
+    position: absolute;
+    left: 902px;
+    top: 148px;
+    color:white;
+    font-size: 20px;
+    font-family:Myriad Pro Regular;
+    letter-spacing: .5px;
+   }
+   .bottomcard button{
+    position: absolute;
+    left: 1045px;
+    top: 238px;
+    border: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 0px 0px 40px 40px;
+    width:130px;
+    height:40px;
+    font-family:Adidas Unity;
+    font-size: 12px;
+    line-height: 16.6px;
+    letter-spacing: .5px;
+    font-weight:bold;
+   }
+   .bottomcard h5{
+    position: absolute;
+    left: 1035px;
+    top: 305px;
+    color:white;
+    font-size: 10px;
+    font-family:gotham light;
+    letter-spacing: .5px;
+
+    }
+    footer{
+        position: relative;
+        top: 1966px;     
+        height: 406px;
+        width: 100%;
+        background-color: #151515;
+    }
+    footer img{
+        
+            position: absolute;
+            top: 117px;
+            left: 212px;
+            width: auto;
+            height: 148px;
+       
+    }
+    .about{
+        position: absolute;
+        top: 110px;
+        left: 406px;
+        font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+        color: white;
+        font-size: 14   px;
+        line-height: 40px;
+        text-align: left;
+        letter-spacing: .5px;
+        font-weight: bold;
+        
+    }
+    .about2{
+        position: absolute;
+        top: 110px;
+        left: 626px;
+        font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+        color: white;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: left;
+        letter-spacing: .5px;
+        font-weight:bold;
+        
+    }
+    .marvelinsider{
+        position: relative;
+        top:110px;
+        left: 571px;
+        width: 600px;
+        
+    }
+    .marvelinsider p{
+        
+        position: absolute;
+        top: -8px;
+        left: 324px;
+        font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+        color: white;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: left;
+        letter-spacing: .5px;
+        font-weight:bold;
+    }
+    .marvelinsider h6{
+        position: absolute;
+        top: -2px;
+        left: 324px;
+        font-family:gotham light;
+        color: rgb(125, 125, 125);
+        font-size: 11px;
+        line-height: 40px;
+        text-align: left;
+        letter-spacing: 1px;
+        font-weight:bold;
+    }
+    .marvelinsider img{
+        position: absolute;
+        top: 23px;
+        left: 250px;
+        height: auto;
+        width: 59px;
+    }
+    .marvelunlimitedd{
+        position: relative;
+        top: 110px;
+        left: 571px;
+        width: 600px;
+    }
+    .marvelunlimitedd p{
+        
+        position: absolute;
+        top: 50px;
+        left: 324px;
+        font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+        color: white;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: left;
+        letter-spacing: 1px;
+        font-weight:bold;
+    }
+    .marvelunlimitedd h6{
+        position: absolute;
+        top: 56px;
+        left: 324px;
+        font-family:gotham light;
+        color: rgb(125, 125, 125);
+        font-size: 11px;
+        line-height: 40px;
+        text-align: left;
+        letter-spacing: .5px;
+        font-weight:bold;
+    }
+    .marvelunlimitedd img{
+        position: absolute;
+        top: 71px;
+        left: 267px;
+        height: auto;
+        width: 32px;
+    }
+    .socials img{
+        position: absolute;
+        top: 137px;
+        left: 1166px;
+    }
+    .socials P{
+        position: absolute;
+        top: 90px;
+        left: 1186px;
+        font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+        color: white;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: left;
+        letter-spacing: .5px;
+        font-weight:bold;
+    }
+   .foottab{
+       cursor: pointer;
+       position:absolute;
+       top: 326px;
+       left: 248px;
+       color: #5a5a5a;
+       font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+       font-weight:normal;
+       font-size: 13px;
+   }
+   .foottable{
+       cursor: pointer;
+    position:absolute;
+    top: 327px;
+    left: 586px;
+    color: #5a5a5a;
+    font-family: Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-weight:normal;
+    font-size: 13px;
+   }
+   .foottab td:hover{
+    cursor: pointer;
+    color: red;
+   }
+   .foottable  td:hover{
+    cursor: grab;
+    color: red;
+   }
